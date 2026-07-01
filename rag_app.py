@@ -261,7 +261,7 @@ def load_system() -> tuple[Optional[retrivel], Optional[HuggingFaceEndpoint], Op
 
 st.set_page_config(page_title="SEBI RAG Chatbot", page_icon="📄", layout="centered")
 st.title("📄 SEBI Document Q&A")
-st.caption("Powered by SEBI Master Circulars · Mistral · RAG (100% Free)")
+st.caption("Powered by SEBI Master Circulars")
 
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
